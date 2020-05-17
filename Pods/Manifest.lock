@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.4)
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - DYVideoCamera (2.1.1):
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - GPUImage
+    - lottie-ios_Oc
+    - Masonry
+  - GPUImage (0.1.7)
+  - HXPhotoPicker (2.4.2)
+  - lottie-ios_Oc (0.0.1)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DYVideoCamera
+  - HXPhotoPicker
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - DYVideoCamera
+    - GPUImage
+    - HXPhotoPicker
+    - lottie-ios_Oc
+    - Masonry
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  DYVideoCamera: 20d05c650c203a1c431f873af94abcd30132a16a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HXPhotoPicker: 0b0751fe5d64271edefcd5cc4ffa9b6300ca58b7
+  lottie-ios_Oc: 246311aa2a6106fe03cb34e3e30f8daf7e1e7d9a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 9ade0558673f9953bc93d8c2826e524bb6a1495d
+
+COCOAPODS: 1.9.1
