@@ -219,9 +219,6 @@
                                          CGRectGetMinY(sectionLastCell.frame),
                                          self.frame.size.width - CGRectGetMaxX(sectionLastCell.frame),
                                          CGRectGetHeight(sectionLastCell.frame));
-        NSLog(@"%ld",(long)indexPath.item);
-        NSLog(@"%@--%@",NSStringFromCGRect(tempRect),NSStringFromCGRect(sectionLastCell.frame));
-        NSLog(@"%@",NSStringFromCGPoint(_tempMoveCell.center));
             //空白区域小于item款度(实际是item的列间隙)
         if (CGRectGetWidth(tempRect) < CGRectGetWidth(sectionLastCell.frame)) {
             continue;
