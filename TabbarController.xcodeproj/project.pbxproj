@@ -96,6 +96,9 @@
 		DD2AC81D2425C3AD00ED80C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2AC81C2425C3AD00ED80C7 /* main.m */; };
 		DD2AC8272425C3AE00ED80C7 /* TabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2AC8262425C3AE00ED80C7 /* TabbarControllerTests.m */; };
 		DD2AC8322425C3AE00ED80C7 /* TabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2AC8312425C3AE00ED80C7 /* TabbarControllerUITests.m */; };
+		DD52FFE7248644980072DC6A /* tabbar_center.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52FFE4248644980072DC6A /* tabbar_center.png */; };
+		DD52FFE8248644980072DC6A /* tabbar_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52FFE5248644980072DC6A /* tabbar_center@3x.png */; };
+		DD52FFE9248644980072DC6A /* tabbar_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD52FFE6248644980072DC6A /* tabbar_center@2x.png */; };
 		DD60ADD82441A6A500251821 /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = DD60ADD72441A6A500251821 /* UITabBar+Badge.m */; };
 		DDB1512E2470346C009F0FAF /* SFCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB1512D2470346C009F0FAF /* SFCollectionView.m */; };
 		DDB1513124703B61009F0FAF /* SFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB1513024703B61009F0FAF /* SFCollectionViewCell.m */; };
@@ -290,6 +293,9 @@
 		DD2AC82D2425C3AE00ED80C7 /* TabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2AC8312425C3AE00ED80C7 /* TabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarControllerUITests.m; sourceTree = "<group>"; };
 		DD2AC8332425C3AE00ED80C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD52FFE4248644980072DC6A /* tabbar_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_center.png; sourceTree = "<group>"; };
+		DD52FFE5248644980072DC6A /* tabbar_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_center@3x.png"; sourceTree = "<group>"; };
+		DD52FFE6248644980072DC6A /* tabbar_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_center@2x.png"; sourceTree = "<group>"; };
 		DD60ADD62441A6A500251821 /* UITabBar+Badge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
 		DD60ADD72441A6A500251821 /* UITabBar+Badge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
 		DDB1512C2470346C009F0FAF /* SFCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFCollectionView.h; sourceTree = "<group>"; };
@@ -479,6 +485,9 @@
 		DD2614352438D1EC006A2423 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				DD52FFE4248644980072DC6A /* tabbar_center.png */,
+				DD52FFE6248644980072DC6A /* tabbar_center@2x.png */,
+				DD52FFE5248644980072DC6A /* tabbar_center@3x.png */,
 				DD2614382438D1EC006A2423 /* SDWebImage */,
 			);
 			path = SDWebImage;
@@ -779,10 +788,13 @@
 				DD2AC8172425C3AD00ED80C7 /* Assets.xcassets in Resources */,
 				DD1E6BCC242DDFAB008F5DC2 /* fc40304512ad57c83f1c6a7285c29747.MOV in Resources */,
 				DD1E6BBC242DDF70008F5DC2 /* README.md in Resources */,
+				DD52FFE8248644980072DC6A /* tabbar_center@3x.png in Resources */,
+				DD52FFE9248644980072DC6A /* tabbar_center@2x.png in Resources */,
 				DD1E6BCE242DDFB1008F5DC2 /* d681aec3da99e987f1bd147ed885d85d.MOV in Resources */,
 				DD2614342438CFE2006A2423 /* 8s.gif in Resources */,
 				DDCD50292452C9E80007BCD8 /* LICENSE in Resources */,
 				DD1E6BCA242DDFA4008F5DC2 /* output 4.MP4 in Resources */,
+				DD52FFE7248644980072DC6A /* tabbar_center.png in Resources */,
 				DD2AC8152425C3AB00ED80C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

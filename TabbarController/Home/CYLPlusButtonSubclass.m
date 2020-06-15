@@ -31,10 +31,10 @@
     CYLPlusButtonSubclass *button = [CYLPlusButtonSubclass buttonWithType:UIButtonTypeCustom];
     NSString *path = [[NSBundle mainBundle] pathForResource:@"8s" ofType:@"gif"];
     NSData *data = [NSData dataWithContentsOfFile:path];
-    UIImage * image = [UIImage sd_animatedGIFWithData:data];
+    UIImage * image = [UIImage imageNamed:@"tabbar_center"];
     [button setImage:image forState:UIControlStateNormal];
         //自定义宽度
-    button.frame = CGRectMake(0.0, 0.0, UIScreen.mainScreen.bounds.size.width/5.0, 49);
+    button.frame = CGRectMake(0.0, 0.0, UIScreen.mainScreen.bounds.size.width/5.0, 46);
     button.imageView.contentMode = UIViewContentModeScaleAspectFit;
     // button.backgroundColor = [UIColor redColor];
         
@@ -50,7 +50,7 @@
 
 // constantOfPlusButtonCenterYOffset 大于 0 会向下偏移，小于 0 会向上偏移。
 + (CGFloat)constantOfPlusButtonCenterYOffsetForTabBarHeight:(CGFloat)tabBarHeight {
-    return (CYL_IS_IPHONE_X ? -3-24 : -6);
+    return (CYL_IS_IPHONE_X ? -18 : 0);
 }
 
 - (void)plusChildViewControllerButtonClicked:(UIButton<CYLPlusButtonSubclassing> *)sender{
